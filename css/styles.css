@@ -15,6 +15,22 @@ li{
     margin-right: 10px;}
 li.coming-soon {
     display: none;}
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#menu {
+    text-align: center;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: #ffc9d1;
+}    
+#hoofdtekst {
+    
+    border: 5px solid #ffc9d1;
+    padding: 15px;
+
+}
 
 img.large {
     width: 750px;
