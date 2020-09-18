@@ -19,6 +19,9 @@ li.coming-soon {
     width: 1200px;
     margin: 0 auto;
 }
+#header {
+    height: 150px;
+}
 #menu {
     text-align: center;
     height: 35px;
@@ -28,8 +31,8 @@ li.coming-soon {
 #hoofdtekst {
     
     border: 5px solid #ffc9d1;
+    border-width: 1px 4px 12px 4px;
     padding: 15px;
-
 }
 
 img.large {
@@ -39,5 +42,5 @@ img.long {
     width: 500px;
     height: 750px;}
 img.small {
-    width: 100px;
-    height: 100px;}
+    width: 250px;
+    height: 150px;}
