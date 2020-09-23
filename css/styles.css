@@ -1,23 +1,35 @@
 body{
-    background-color: #fa7d90;
+    background-color: #ffe8e8;
     color: white;
-    text-align: center;}
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 h1,h2,h3 {
     font-family: Arial, Helvetica, sans-serif;}
 p{
-    font-family: helvetica;
     color: black;}
     
 ul{
     list-style-type: none;}
 li{
-    display: inline;
-    margin-right: 10px;}
-li.coming-soon {
-    display: none;}
+    display: inline-block;
+    margin: 10px;
+}
+
+.menuknop {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menuknop:hover {
+    background-color: #ff96ab;
+    padding: 10px;
+}
 #container {
-    width: 1200px;
+    overflow: auto;
+    width: 1000px;
     margin: 0 auto;
+    cursor: url("../Images/baby-yoda.png"), default;
 }
 #header {
     height: 150px;
@@ -26,13 +38,13 @@ li.coming-soon {
     text-align: center;
     height: 35px;
     margin-bottom: 10px;
-    background-color: #ffc9d1;
+    background-color: #fcb1b7;
 }    
 #hoofdtekst {
-    
-    border: 5px solid #ffc9d1;
-    border-width: 1px 4px 12px 4px;
+    border: 5px solid #fcb1b7;
+    border-width: 6px;
     padding: 15px;
+    background-color: #ffc9d1;
 }
 
 img.large {

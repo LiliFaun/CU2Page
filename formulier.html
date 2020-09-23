@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+          <img id="logo" src="Images/logo.png" class="small" alt="potato logo" title="potato logo art"/>
+        </div>
+            <div id="menu">
+              <ul>
+                <li><a class="menuknop" href="ìndex.html">Home</a></li>
+                <li><a class="menuknop" href="overmij.html">Over mij</a></li>
+                <li><a class="menuknop" href="mijnleerdoelen.html">Mijn leerdoelen</a></li>
+              </ul>
+            </div>
+    <div id="hoofdtekst">
+    <h1>Feedback over de website</h1>
+    <p>Wanneer je de site eens goed hebt bekeken zou ik je willen vragen om dit formulier in te vullen. <br />
+    Met deze informatie ga ik proberen om de website te verbeteren en nieuwe dingen te leren. <br />
+    Alvast bedankt voor de moeite en nog een fijne dag verder.</p>
+    <div id="formulier">
+        <form action="feedback.php" method="POST">
+        <p>Als je je naam niet wilt invullen, dan kun je ook iets leuks bedenken :)</p>
+        <p>Naam:
+            <input type="text" name="username" maxlength="30" /> </p>
+            <p>Welke pagina vond je er het best uit zien?</p>
+            <select name="subpages">
+                <option value="index.html">Home</option>
+                <option value="overmij.html">Over mij</option>
+                <option value="mijnleerdoelen.html">Mijn leerdoelen</option>
+                <option value="formulier.html">Feedback</option>
+            </select>
+            <p>Welke pagina vond je er het minst uit zien?</p>
+            <select name="subpages">
+                <option value="index.html">Home</option>
+                <option value="overmij.html">Over mij</option>
+                <option value="mijnleerdoelen.html">Mijn leerdoelen</option>
+                <option value="formulier.html">Feedback</option>
+            </select>
+            <p>Verdere tips en tops over de website?</p>
+            <textarea name="comments" cols="30" rows="5" maxlength="1000">Geef hier je tips en tops...</textarea>
+            <p></p>
+            <br /><br />
+            <input type="submit" value="Send" />
+        </form>
+    </div>
+  <script src="Javascript/jabbathehut.js"></script>
+  </div>
+  </div>  
+  <footer>
+    My world 2020
+  </footer>
+</body>
+</html>
