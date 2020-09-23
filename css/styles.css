@@ -1,5 +1,6 @@
 body{
     background-color: #ffe8e8;
+    cursor: url("../Images/cursorfinalyoda.png"), default;
     color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,12 +25,13 @@ li{
 .menuknop:hover {
     background-color: #ff96ab;
     padding: 10px;
+    cursor: url("../Images/cursorfinalyoda.png"), default;
 }
 #container {
     overflow: auto;
     width: 1000px;
     margin: 0 auto;
-    cursor: url("../Images/baby-yoda.png"), default;
+    
 }
 #header {
     height: 150px;
