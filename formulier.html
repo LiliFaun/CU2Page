@@ -30,26 +30,26 @@
     Met deze informatie ga ik proberen om de website te verbeteren en nieuwe dingen te leren. <br />
     Alvast bedankt voor de moeite en nog een fijne dag verder.</p>
     <div id="formulier">
-        <form action="feedback.php" method="POST">
+        <form method="POST" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
         <p>Als je je naam niet wilt invullen, dan kun je ook iets leuks bedenken :)</p>
         <p>Naam:
             <input type="text" name="username" maxlength="30" /> </p>
             <p>Welke pagina vond je er het best uit zien?</p>
-            <select name="subpages">
+            <select name="subpagepos">
                 <option value="index.html">Home</option>
                 <option value="overmij.html">Over mij</option>
                 <option value="mijnleerdoelen.html">Mijn leerdoelen</option>
                 <option value="formulier.html">Feedback</option>
             </select>
             <p>Welke pagina vond je er het minst uit zien?</p>
-            <select name="subpages">
+            <select name="subpageneg">
                 <option value="index.html">Home</option>
                 <option value="overmij.html">Over mij</option>
                 <option value="mijnleerdoelen.html">Mijn leerdoelen</option>
                 <option value="formulier.html">Feedback</option>
             </select>
             <p>Verdere tips en tops over de website?</p>
-            <textarea name="comments" cols="30" rows="5" maxlength="1000">Geef hier je tips en tops...</textarea>
+            <textarea name="comment" cols="30" rows="5" maxlength="1000">Geef hier je tips en tops...</textarea>
             <p></p>
             <br /><br />
             <input type="submit" value="Send" />
